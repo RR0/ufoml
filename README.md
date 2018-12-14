@@ -34,9 +34,6 @@ using some Neural Network.
 While this should ideally be a feature among others (in order to not process the image alone but ponderate it with context information),
 it might be too complex/performance costly to mix it with other data as a first step.
 
-### Explanability
-When classifying a case, it would be of particular interest to associate the answer with some explanability so it could be understood/verified by investigators.
-
 ### The skewed classes problem
 The UFO data corpus, if considered as a binary classification ("identified/unidentified") would be a typical case of 
 "skewed classes", where one class is typically a lot more common that the other. This could lead to biased precision metrics, 
@@ -44,6 +41,11 @@ as in such a case it is easy to seem precise (say 90%) when predicting the case 
 
 While techniques exist to mitigate that problem (such as the F metric), it could more easily and interestingly avoided 
 by targeting multiple identified classes ("plane", "star", "hoax", etc.) that are more evenly distributed among the explanation space.
+
+## Prediction
+
+### Explanability
+When classifying a case, it would be of particular interest to associate the answer with some explanability so it could be understood/verified by investigators.
 
 ## See also
 
