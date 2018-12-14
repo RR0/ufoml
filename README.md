@@ -26,6 +26,14 @@ Aside the data size, the characteristics (or "features") of an UFO case are crit
     - etc.
 - they should be well engineered (avoid duplicates, scale/type standardization, etc.)
 
+#### The problem of reliability
+As the goal is not to predict cases as being "unidentified" (this would more be a case of "failure to predict"), the reliability of the data comes in two parts:
+- **reliability of known IFOs**: As those known IFOs will be the basis for training the system, the reliability of their data is critical. 
+That is, the system will only be able to predict what those cases say about reality possibilities. Hopefully IFOs cases are well documented 
+and rarely contested, so their reliability is hight.
+- **reliability of tested UFOs**: This is the reliability of the data we gathered about a case which has not (yet) be explained ; 
+so basically this is the reliability of the investigation on this case.
+
 #### Media feature
 A specific case of feature would be media such as photo, video or audio recordings,
 which could be predicted to match a known visual phenomenon (after training the system on a number of strange-but-known photos of natural or mundane phenomena typically)
