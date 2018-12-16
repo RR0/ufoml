@@ -23,6 +23,9 @@ Input would come for UFO cases databases available as raw files (.csv typically)
 
 ### Preprocessed input
 
+This is a re-engineering of the raw input(s) to avoid duplicates, standardize scales and types, etc.
+and more of all select appropriate features (data rows characteristics) to feed during system training.
+
 #### Features
 
 Aside the data size, the characteristics (or "features") of an UFO case are critical to perform a good prediction, so :
@@ -38,7 +41,6 @@ Aside the data size, the characteristics (or "features") of an UFO case are crit
     - apparition/disparition
     - witnesses info (number, profile...)
     - etc.
-- they should be well engineered (avoid duplicates, scale/type standardization, etc.)
 
 ##### Media feature
 A specific case of feature would be media such as photo, video or audio recordings,
